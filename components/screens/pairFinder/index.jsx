@@ -54,7 +54,7 @@ const FindPairs = () => {
   });
 
   // Render a message in the React component indicating where to view the results in the console
-  return <div>Open the console to see the output.</div>;
+  return <div className='center'>Open the console to see the output.</div>;
 };
 
 export default FindPairs;

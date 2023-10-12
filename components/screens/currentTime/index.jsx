@@ -34,7 +34,7 @@ const CurrentTimeScreen = () => {
       <p>Current Time: {time}</p>
 
       {/* Display the click count */}
-      <p>Count: {clickCount}</p>
+      <p>Click Count: {clickCount}</p>
 
       {/* Display the component's render count using the useRef reference */}
       <p>Component Render Count: {renderCount.current > 0 ? renderCount.current : 0}</p>
